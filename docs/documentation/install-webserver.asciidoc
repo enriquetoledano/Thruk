@@ -231,7 +231,7 @@ Make sure your backend's contact definitions exists, matches with the ldap usern
         AuthName "Thruk Monitoring"
         AuthType Basic
 
-        #leagacy file authentication first, then ldap
+        #legacy file authentication first, then ldap
         AuthBasicProvider file ldap
 
         #legacy file (or set it to /dev/null
